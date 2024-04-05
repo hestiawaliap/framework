@@ -1,0 +1,117 @@
+.jumbotron {
+    padding-top: 2rem;
+   background-color: #ffe4c4; 
+}
+
+.biodata {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.col-md-4 {
+    width: 50%;
+    text-align: center;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table tr {
+    border-bottom: 1px solid #ddd;
+}
+
+table tr:last-child {
+    border-bottom: none;
+}
+
+table td {
+    padding: 10px 0;
+}
+
+h3.heading {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+h3.heading span {
+    color: #ff6600;
+}
+  
+.navbar {
+    padding: 1rem 0;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+  
+  .hero-section {
+    background: url('gambar/background.jpg') center/cover no-repeat;
+    color: #fff;
+  }
+  
+  .hero-section h1 {
+    font-size: 3.5rem;
+  }
+  
+  .section-heading {
+    font-size: 2.5rem;
+  }
+  
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+  }
+  
+  .card-text {
+    font-size: 1.1rem;
+  }
+  
+  footer {
+    color: #fff;
+    padding: 1rem 0;
+  }
+  
+  @media (max-width: 768px) {
+    .hero-section h1 {
+      font-size: 2.5rem;
+    }
+    .section-heading {
+      font-size: 2rem;
+    }
+    .card-img-top {
+      height: 150px;
+    }
+    .card-title {
+      font-size: 1.3rem;
+    }
+    .card-text {
+      font-size: 1rem;
+    }
+  }
